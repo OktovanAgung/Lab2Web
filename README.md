@@ -19,4 +19,3 @@ Kemudian tambahkan deklarasi CSS pada tag <p> seperti berikut. Seimpan kembali d
 ## 4. Menambahkan CSS Eksternal
 Buatlah file baru dengan nama <b>style_eksternal.css<b> kemudianbuatlah deklarasi CSS seperti berikut.
 ![img](img/img4.png)
-
