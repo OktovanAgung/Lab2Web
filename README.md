@@ -1,6 +1,8 @@
-## Nama    : Oktovan Agung Shailendra
-## NIM     : 312010131
-## Kelas   : TI.20.A.1
+| Nama  | Oktovan Agung Shailendra|
+|-------|-------------------------|
+|NIM    |312010131                |
+| Kelas | TI.20.A.1               |
+
 
 ---
 # Langkah - Langkah Praktikum
@@ -36,4 +38,21 @@ selanjutnya menambahkan <b>CSS Selector<b> menggunakan ID dan Class Selector. Pa
 
 ## Jawaban
 
-1. 
+1. Disini saya akan menambahkan dan mengubah properti dan nilaipada kode CSS, dimulai darimembuat kerangka HTML nya.
+![img](img/img7.png)
+
+Kemudian membuat CSS nya dengan menambahkan nilai dan properti pada kode diatas
+Disini Saya menambahkan 4 selector kedalam CSS, diantaranya body, h2, .avatar, .header-profile. Masing - masing memiliki fungsi untuk mengatur tampilan pada HTML
+
+Pada selector body saya menambahkan properti, yaitu width, font-size, color, width, DST.
+Pada selector h2 saya menambahkan properti, yaitu font-width, fonth-size
+Pada selector .avatar saya menambahkan properti, yaitu width, border-radius 
+Pada selector .header-profile saya menambahkan properti, yaitu justify-content, align-items
+![img](img/img8.png)
+
+Pada hasil tersebut dapat dilihat, pada mode mobile lebar body terlalu ke tengah, karena widht pada selektor body diatur dengan nilai 50% pada ukuran desktop, agar dapat terlihat proporsional pada ukuran mobile dapat ditambahkan selektor @media only screen and (max-width: 760px), dan hasil nya bisa dilihat.
+![img](img/img9.png)
+
+2. Perbedaan antara element h1 {...} dengan #intro h1 {...} adalah :
+h1 {...} Antuk memberikan style pada semua h1 sedangkan,
+#intro h1 {...} Awalan simbol hash (#) memungkinkan kita untuk memberikan style pada id. selector id bersifat kaku dan tidak bisa digunakan kembali pada element yang lainnya. Menurut saya lebih baik menggunakan selektor class untuk mendefinisikan element yang ingin diberi nilai.
