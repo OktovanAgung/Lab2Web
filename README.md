@@ -56,3 +56,18 @@ Pada hasil tersebut dapat dilihat, pada mode mobile lebar body terlalu ke tengah
 2. Perbedaan antara element h1 {...} dengan #intro h1 {...} adalah :
 h1 {...} Antuk memberikan style pada semua h1 sedangkan,
 #intro h1 {...} Awalan simbol hash (#) memungkinkan kita untuk memberikan style pada id. selector id bersifat kaku dan tidak bisa digunakan kembali pada element yang lainnya. Menurut saya lebih baik menggunakan selektor class untuk mendefinisikan element yang ingin diberi nilai.
+![img](img/img10.png)
+
+3. Setelah dilakukan pengujian, deklarasi CSS Inline lebih dahulu tampil di browser, itu dikarenakan permintaan HTTP yang sangat kecil memungkinkan untuk ditampilkan dahulu
+
+	Berikut merupakan hasil pengujian deklarasi CSS
+
+	CSS Inline `blue`
+	
+	CSS Internal `red`
+	
+	CSS Eksternal `yellow`
+![img](img/img11.png)
+
+4. Deklarasi `id="paragraf-1"` akan ditampilkan pada browser, karena selektor id lebih spesifik dari class atau bahkan element P itu sendiri, kecuali jika kita menambahkan property pada inline element P maka selektor id tersebut akan tertimpa, karena inline lebih spesifik daripada id, class, dan element
+![img](img/img12.png)

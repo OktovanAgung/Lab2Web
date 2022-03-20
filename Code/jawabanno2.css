@@ -1,0 +1,10 @@
+h1{
+   color: orange; 
+   font-size: 50px;
+}
+
+#intro h1 {
+    font-family: arial;
+    color: blueviolet;
+    font-size: 30px;
+}
