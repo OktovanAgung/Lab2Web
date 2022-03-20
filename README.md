@@ -8,25 +8,25 @@
 # Langkah - Langkah Praktikum
 ## 1. Membuat Dokumen HTML
 Membuat dokumen HTML seperti berikut kemudian simpan dan lihat hasilnya di web browser.
-![IMG](img/img1.png)
+![IMG](asset/img1.png)
 
 ## 2. Mendeklarasikan CSS Internal
 Kemudian tambahkan deklarasi CSS internal seperti berikut pada bagian head dokumen, kemudian simpan dan lihat hasilnya pada web browser.
-![IMG](img/img2.png)
+![IMG](asset/img2.png)
 
 ## 3. Menambahkan Inline CSS
 Kemudian tambahkan deklarasi CSS pada tag `<p>` seperti berikut. Seimpan kembali dan refresh web browser untuk melihat hasilnya.
-![IMG](img/img3.png)
+![IMG](asset/img3.png)
 
 ## 4. Menambahkan CSS Eksternal
 Buatlah file baru dengan nama <b>style_eksternal.css<b> kemudianbuatlah deklarasi CSS seperti berikut.
-![IMG](img/img4.png)
+![IMG](asset/img4.png)
 Kemudain tambahkan tag `<link>` untuk merujuk file css yang sudah dibuat pada bagiann `<head>`, kemudian simpan dan refresh padah web browser untuk melihat hasilnya.
-![IMG](img/img5.png)
+![IMG](asset/img5.png)
 
 ## 5. Menambahkan CSS Selector
 selanjutnya menambahkan <b>CSS Selector<b> menggunakan ID dan Class Selector. Pada file <b>style_eksternal.css<b>, tambahkan kode berikut. Kemudian simpan kembali dan refresh web browser untuk melihat hasilnya.
-![IMG](img/img6.png)
+![IMG](asset/img6.png)
 
 ---
 
@@ -39,7 +39,7 @@ selanjutnya menambahkan <b>CSS Selector<b> menggunakan ID dan Class Selector. Pa
 ## Jawaban
 
 1. Disini saya akan menambahkan dan mengubah properti dan nilaipada kode CSS, dimulai darimembuat kerangka HTML nya.
-![IMG](img/img7.png)
+![IMG](asset/img7.png)
 
 Kemudian membuat CSS nya dengan menambahkan nilai dan properti pada kode diatas
 Disini Saya menambahkan 4 selector kedalam CSS, diantaranya body, h2, .avatar, .header-profile. Masing - masing memiliki fungsi untuk mengatur tampilan pada HTML
@@ -48,15 +48,15 @@ Pada selector body saya menambahkan properti, yaitu width, font-size, color, wid
 Pada selector h2 saya menambahkan properti, yaitu font-width, fonth-size
 Pada selector .avatar saya menambahkan properti, yaitu width, border-radius 
 Pada selector .header-profile saya menambahkan properti, yaitu justify-content, align-items
-![IMG](img/img8.png)
+![IMG](asset/img8.png)
 
 Pada hasil tersebut dapat dilihat, pada mode mobile lebar body terlalu ke tengah, karena widht pada selektor body diatur dengan nilai 50% pada ukuran desktop, agar dapat terlihat proporsional pada ukuran mobile dapat ditambahkan selektor @media only screen and (max-width: 760px), dan hasil nya bisa dilihat.
-![IMG](img/img9.png)
+![IMG](asset/img9.png)
 
 2. Perbedaan antara element h1 {...} dengan #intro h1 {...} adalah :
 h1 {...} Antuk memberikan style pada semua h1 sedangkan,
 #intro h1 {...} Awalan simbol hash (#) memungkinkan kita untuk memberikan style pada id. selector id bersifat kaku dan tidak bisa digunakan kembali pada element yang lainnya. Menurut saya lebih baik menggunakan selektor class untuk mendefinisikan element yang ingin diberi nilai.
-![IMG](img/img10.png)
+![IMG](asset/img10.png)
 
 3. Setelah dilakukan pengujian, deklarasi CSS Inline lebih dahulu tampil di browser, itu dikarenakan permintaan HTTP yang sangat kecil memungkinkan untuk ditampilkan dahulu
 
@@ -67,7 +67,7 @@ h1 {...} Antuk memberikan style pada semua h1 sedangkan,
 	CSS Internal `red`
 	
 	CSS Eksternal `yellow`
-![IMG](img/img11.png)
+![IMG](asset/img11.png)
 
 4. Deklarasi `id="paragraf-1"` akan ditampilkan pada browser, karena selektor id lebih spesifik dari class atau bahkan element P itu sendiri, kecuali jika kita menambahkan property pada inline element P maka selektor id tersebut akan tertimpa, karena inline lebih spesifik daripada id, class, dan element
-![IMG](img/img12.png)
+![IMG](asset/img12.png)
